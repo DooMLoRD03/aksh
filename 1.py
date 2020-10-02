@@ -7,7 +7,7 @@ qr=qrcode.QRCode(
 )
 
 
-data="https://youtu.be/d7uVuSRnoH0"
+data="https://youtu.be/mll-akn8Gqs"
 qr.add_data(data)
 qr.make(fit=True)
 img=qr.make_image(fill="black",back_color="white")
